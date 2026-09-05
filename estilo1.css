@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgba(222, 227, 231, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-menu {
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    padding: 20px 40px;
+    /* background-color: blue; */
+    border-radius: 15px;
+}
+
+.logo {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.inputs {
+    margin-top: 40px;
+    /* background-color: yellow; */
+    width: 100%;
+}
+
+.inputs input {
+
+    border: none;
+    /* background-color: red; */
+    border-bottom: 1px solid rgb(112, 112, 104);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.input-senha {
+    margin-top: 30px;
+}
+
+
+
+.botao {
+    /* background-color: red; */
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(39, 86, 125, 1) 6%, rgba(36, 70, 92, 1) 50%, rgba(35, 87, 110, 1) 100%);
+    cursor: pointer;
+
+}
+
+.btn {
+    all: unset;
+    color: #fff;
+}
+
+p{
+    margin-top: 25px;
+    text-align: center;
+}
+
+span{
+    font-weight: bolder;
+}
