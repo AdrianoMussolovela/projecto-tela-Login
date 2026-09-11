@@ -81,3 +81,7 @@ p{
 span{
     font-weight: bolder;
 }
+span{
+    font-weight: bolder;
+    background-color: red;
+}
